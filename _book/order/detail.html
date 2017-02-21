@@ -1,0 +1,633 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>详情接口 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="update.html" />
+    
+    
+    <link rel="prev" href="list.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../structure/">
+            
+                <a href="../structure/">
+            
+                    
+                    系统结构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../structure/systemStructure.html">
+            
+                <a href="../structure/systemStructure.html">
+            
+                    
+                    系统架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../structure/dbStructure.html">
+            
+                <a href="../structure/dbStructure.html">
+            
+                    
+                    数据库结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../structure/fileStructure.html">
+            
+                <a href="../structure/fileStructure.html">
+            
+                    
+                    文件结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../structure/dependencyStructure.html">
+            
+                <a href="../structure/dependencyStructure.html">
+            
+                    
+                    依赖关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    保洁单接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="create.html">
+            
+                <a href="create.html">
+            
+                    
+                    创建接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="list.html">
+            
+                <a href="list.html">
+            
+                    
+                    列表接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.3" data-path="detail.html">
+            
+                <a href="detail.html">
+            
+                    
+                    详情接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="update.html">
+            
+                <a href="update.html">
+            
+                    
+                    更新接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="import.html">
+            
+                <a href="import.html">
+            
+                    
+                    导入接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="export.html">
+            
+                <a href="export.html">
+            
+                    
+                    导出接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../company/">
+            
+                <a href="../company/">
+            
+                    
+                    保洁单公司接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../company/create.html">
+            
+                <a href="../company/create.html">
+            
+                    
+                    创建接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../company/list.html">
+            
+                <a href="../company/list.html">
+            
+                    
+                    列表接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../company/detail.html">
+            
+                <a href="../company/detail.html">
+            
+                    
+                    详情接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../company/update.html">
+            
+                <a href="../company/update.html">
+            
+                    
+                    更新接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../staff/">
+            
+                <a href="../staff/">
+            
+                    
+                    保洁员接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../staff/create.html">
+            
+                <a href="../staff/create.html">
+            
+                    
+                    创建接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../staff/list.html">
+            
+                <a href="../staff/list.html">
+            
+                    
+                    列表接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../staff/detail.html">
+            
+                <a href="../staff/detail.html">
+            
+                    
+                    详情接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../staff/update.html">
+            
+                <a href="../staff/update.html">
+            
+                    
+                    更新接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >详情接口</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="&#x4FDD;&#x6D01;&#x5355;&#x8BE6;&#x60C5;">&#x4FDD;&#x6D01;&#x5355;&#x8BE6;&#x60C5;</h2>
+<h3 id="&#x8BF4;&#x660E;">&#x8BF4;&#x660E;</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Key</th>
+<th style="text-align:left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">&#x529F;&#x80FD;&#x63CF;&#x8FF0;</td>
+<td style="text-align:left">&#x4FDD;&#x6D01;&#x5355;&#x8BE6;&#x60C5;</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x63A5;&#x53E3;&#x5730;&#x5740;</td>
+<td style="text-align:left">/baojie/detail/detail/{id}</td>
+</tr>
+<tr>
+<td style="text-align:left">&#x8C03;&#x7528;&#x65B9;&#x5F0F;</td>
+<td style="text-align:left">GET</td>
+</tr>
+</tbody>
+</table>
+<h3 id="&#x53C2;&#x6570;">&#x53C2;&#x6570;</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">&#x53C2;&#x6570;</th>
+<th style="text-align:left">&#x7C7B;&#x578B;</th>
+<th style="text-align:left">&#x63CF;&#x8FF0;</th>
+<th style="text-align:left">&#x8BF4;&#x660E;</th>
+<th style="text-align:left">&#x53EF;&#x7A7A;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">id</td>
+<td style="text-align:left">integer</td>
+<td style="text-align:left">&#x4FDD;&#x6D01;&#x5355;ID</td>
+<td style="text-align:left"></td>
+<td style="text-align:left">N</td>
+</tr>
+</tbody>
+</table>
+<h3 id="&#x63A5;&#x53E3;&#x8FD4;&#x56DE;&#x503C;">&#x63A5;&#x53E3;&#x8FD4;&#x56DE;&#x503C;</h3>
+<pre><code class="lang-json">{
+
+    <span class="hljs-string">&quot;resultCode&quot;</span>: <span class="hljs-number">0</span>,
+    <span class="hljs-string">&quot;resultMsg&quot;</span>: <span class="hljs-string">&quot;&#x67E5;&#x8BE2;&#x6210;&#x529F;!&quot;</span>,
+    <span class="hljs-string">&quot;result&quot;</span>: {
+        <span class="hljs-string">&quot;basicInfo&quot;</span>: {
+            <span class="hljs-string">&quot;propertyBH&quot;</span>: <span class="hljs-string">&quot;&#x7269;&#x4E1A;&#x7F16;&#x53F7;&quot;</span>,
+            <span class="hljs-string">&quot;propertyAddress&quot;</span>: <span class="hljs-string">&quot;&#x7269;&#x4E1A;&#x5730;&#x5740;&quot;</span>,
+            <span class="hljs-string">&quot;storeName&quot;</span>: <span class="hljs-string">&quot;&#x95E8;&#x5E97;&#x540D;&#x5B57;&quot;</span>,
+            <span class="hljs-string">&quot;storeID&quot;</span>: <span class="hljs-string">&quot;&#x95E8;&#x5E97;ID&quot;</span>,
+            <span class="hljs-string">&quot;communityName&quot;</span>: <span class="hljs-string">&quot;&#x5C0F;&#x533A;&#x540D;&#x5B57;&quot;</span>,
+            <span class="hljs-string">&quot;roomName&quot;</span>: <span class="hljs-string">&quot;&#x5BA2;&#x623F;&#x540D;&#x5B57;&quot;</span>,
+            <span class="hljs-string">&quot;rentType&quot;</span>: <span class="hljs-string">&quot;&#x51FA;&#x79DF;&#x7C7B;&#x578B;&quot;</span>,
+            <span class="hljs-string">&quot;bjCompany&quot;</span>: <span class="hljs-string">&quot;&#x4FDD;&#x6D01;&#x516C;&#x53F8;&quot;</span>,
+            <span class="hljs-string">&quot;bjCompanyID&quot;</span>: <span class="hljs-string">&quot;&#x4FDD;&#x6D01;&#x516C;&#x53F8;id&quot;</span>,
+            <span class="hljs-string">&quot;bjOperatorID&quot;</span>: <span class="hljs-string">&quot;&#x4FDD;&#x6D01;&#x5458;ID&quot;</span>,
+            <span class="hljs-string">&quot;bjOperatorName&quot;</span>: <span class="hljs-string">&quot;&#x4FDD;&#x6D01;&#x5458;&#x540D;&#x5B57;&quot;</span>,
+            <span class="hljs-string">&quot;cancelReason&quot;</span>: <span class="hljs-string">&quot;&#x53D6;&#x6D88;&#x539F;&#x56E0;&quot;</span>,
+            <span class="hljs-string">&quot;remark&quot;</span>: <span class="hljs-string">&quot;&#x5907;&#x6CE8;&quot;</span>,
+            <span class="hljs-string">&quot;askCleanTime&quot;</span>: <span class="hljs-string">&quot;&#x8981;&#x6C42;&#x4FDD;&#x6D01;&#x65E5;&#x671F;&quot;</span>,
+            <span class="hljs-string">&quot;type&quot;</span>: <span class="hljs-string">&quot;&#x4FDD;&#x6D01;&#x7C7B;&#x578B;&quot;</span>,
+            <span class="hljs-string">&quot;typeName&quot;</span>: <span class="hljs-string">&quot;&#x4FDD;&#x6D01;&#x7C7B;&#x578B;&#x540D;&#x79F0;&quot;</span>,
+            <span class="hljs-string">&quot;orderStatus&quot;</span>: <span class="hljs-string">&quot;&#x8BA2;&#x5355;&#x72B6;&#x6001;&quot;</span>,
+            <span class="hljs-string">&quot;orderStatusName&quot;</span>: <span class="hljs-string">&quot;&#x8BA2;&#x5355;&#x72B6;&#x6001;&#x540D;&#x5B57;&quot;</span>,
+            <span class="hljs-string">&quot;cleanArea&quot;</span>: <span class="hljs-string">&quot;&#x4FDD;&#x6D01;&#x533A;&#x57DF;&quot;</span>
+        },
+        <span class="hljs-string">&quot;time&quot;</span>: {
+            <span class="hljs-string">&quot;askCleanTime&quot;</span>: <span class="hljs-string">&quot;&#x8981;&#x6C42;&#x4FDD;&#x6D01;&#x65E5;&#x671F;&quot;</span>,
+            <span class="hljs-string">&quot;getKeysTime&quot;</span>: <span class="hljs-string">&quot;&#x9886;&#x53D6;&#x94A5;&#x5319;&#x65F6;&#x95F4;&quot;</span>,
+            <span class="hljs-string">&quot;cleanEndTime&quot;</span>: <span class="hljs-string">&quot;&#x4FDD;&#x6D01;&#x7ED3;&#x675F;&#x65F6;&#x95F4;&quot;</span>,
+            <span class="hljs-string">&quot;backKeysTime&quot;</span>: <span class="hljs-string">&quot;&#x56DE;&#x6536;&#x94A5;&#x5319;&#x65F6;&#x95F4;&quot;</span>,
+            <span class="hljs-string">&quot;checkTime&quot;</span>: <span class="hljs-string">&quot;&#x7BA1;&#x5BB6;&#x9A8C;&#x6536;&#x65F6;&#x95F4;&quot;</span>
+        },
+        <span class="hljs-string">&quot;bjImgs&quot;</span>: <span class="hljs-string">&quot;&#x4FDD;&#x6D01;&#x56FE;&#x7247;&quot;</span>,
+        <span class="hljs-string">&quot;checkResult&quot;</span>: {
+            <span class="hljs-string">&quot;checkMan&quot;</span>: <span class="hljs-string">&quot;&#x9A8C;&#x6536;&#x4EBA;&#x5458;&quot;</span>,
+            <span class="hljs-string">&quot;checkResult&quot;</span>: <span class="hljs-string">&quot;&#x9A8C;&#x6536;&#x7ED3;&#x679C;&quot;</span>,
+            <span class="hljs-string">&quot;checkImgs&quot;</span>: <span class="hljs-string">&quot;&#x9A8C;&#x6536;&#x56FE;&#x7247;&quot;</span>
+        },
+        <span class="hljs-string">&quot;customerScore&quot;</span>: <span class="hljs-string">&quot;&#x79DF;&#x5BA2;&#x8BC4;&#x8BBA;&quot;</span>
+    }
+
+}
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="list.html" class="navigation navigation-prev " aria-label="Previous page: 列表接口">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="update.html" class="navigation navigation-next " aria-label="Next page: 更新接口">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"详情接口","level":"1.3.3","depth":2,"next":{"title":"更新接口","level":"1.3.4","depth":2,"path":"order/update.md","ref":"order/update.md","articles":[]},"previous":{"title":"列表接口","level":"1.3.2","depth":2,"path":"order/list.md","ref":"order/list.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"order/detail.md","mtime":"2017-02-21T09:09:37.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-21T09:53:23.925Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

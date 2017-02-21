@@ -1,0 +1,649 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>数据库结构 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="fileStructure.html" />
+    
+    
+    <link rel="prev" href="systemStructure.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    系统结构
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="systemStructure.html">
+            
+                <a href="systemStructure.html">
+            
+                    
+                    系统架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.2" data-path="dbStructure.html">
+            
+                <a href="dbStructure.html">
+            
+                    
+                    数据库结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="fileStructure.html">
+            
+                <a href="fileStructure.html">
+            
+                    
+                    文件结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="dependencyStructure.html">
+            
+                <a href="dependencyStructure.html">
+            
+                    
+                    依赖关系
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../order/">
+            
+                <a href="../order/">
+            
+                    
+                    保洁单接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../order/create.html">
+            
+                <a href="../order/create.html">
+            
+                    
+                    创建接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../order/list.html">
+            
+                <a href="../order/list.html">
+            
+                    
+                    列表接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../order/detail.html">
+            
+                <a href="../order/detail.html">
+            
+                    
+                    详情接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../order/update.html">
+            
+                <a href="../order/update.html">
+            
+                    
+                    更新接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../order/import.html">
+            
+                <a href="../order/import.html">
+            
+                    
+                    导入接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../order/export.html">
+            
+                <a href="../order/export.html">
+            
+                    
+                    导出接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../company/">
+            
+                <a href="../company/">
+            
+                    
+                    保洁单公司接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../company/create.html">
+            
+                <a href="../company/create.html">
+            
+                    
+                    创建接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../company/list.html">
+            
+                <a href="../company/list.html">
+            
+                    
+                    列表接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../company/detail.html">
+            
+                <a href="../company/detail.html">
+            
+                    
+                    详情接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../company/update.html">
+            
+                <a href="../company/update.html">
+            
+                    
+                    更新接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../staff/">
+            
+                <a href="../staff/">
+            
+                    
+                    保洁员接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../staff/create.html">
+            
+                <a href="../staff/create.html">
+            
+                    
+                    创建接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../staff/list.html">
+            
+                <a href="../staff/list.html">
+            
+                    
+                    列表接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../staff/detail.html">
+            
+                <a href="../staff/detail.html">
+            
+                    
+                    详情接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../staff/update.html">
+            
+                <a href="../staff/update.html">
+            
+                    
+                    更新接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >数据库结构</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6570;&#x636E;&#x5E93;&#x7ED3;&#x6784;">&#x6570;&#x636E;&#x5E93;&#x7ED3;&#x6784;</h1>
+<pre><code>   &#x6570;&#x636E;&#x5E93;&#x540D;&#x79F0;&#xFF1A;baojie
+   &#x6570;&#x636E;&#x8868;&#xFF1A;
+        bj_order&#xFF1A;&#x4FDD;&#x6D01;&#x5355;
+        bj_company&#xFF1A;&#x4FDD;&#x6D01;&#x516C;&#x53F8;
+        bj_staff&#xFF1A;&#x4FDD;&#x6D01;&#x5458;
+        bj_order_score&#xFF1A;&#x4FDD;&#x6D01;&#x5355;&#x8BC4;&#x8BBA;
+</code></pre><h1 id="eer&#x5173;&#x7CFB;&#x56FE;">eer&#x5173;&#x7CFB;&#x56FE;</h1>
+<p><img src="../imgs/bj.png" alt="PNG"></p>
+<h1 id="&#x5B57;&#x6BB5;&#x89E3;&#x91CA;">&#x5B57;&#x6BB5;&#x89E3;&#x91CA;</h1>
+<h3 id="bjorder">bj_order</h3>
+<p>CREATE TABLE <code>bj_order</code> (</p>
+<p>  <code>id</code> int(10) NOT NULL AUTO_INCREMENT,</p>
+<p>  <code>type</code> int(1) DEFAULT NULL COMMENT &apos;&#x4FDD;&#x6D01;&#x7C7B;&#x578B;&apos;,</p>
+<p>  <code>propertyBH</code> varchar(10) DEFAULT NULL COMMENT &apos;&#x7269;&#x4E1A;&#x7F16;&#x53F7;&apos;,</p>
+<p>  <code>storeID</code> varchar(32) DEFAULT NULL COMMENT &apos;&#x95E8;&#x5E97;id&apos;,</p>
+<p>  <code>storeName</code> varchar(100) DEFAULT NULL COMMENT &apos;&#x95E8;&#x5E97;&#x540D;&#x5B57;&apos;,</p>
+<p>  <code>communityID</code> varchar(32) DEFAULT NULL COMMENT &apos;&#x5C0F;&#x533A;ID&apos;,</p>
+<p>  <code>communityName</code> varchar(100) DEFAULT NULL COMMENT &apos;&#x5C0F;&#x533A;&#x540D;&#x5B57;&apos;,</p>
+<p>  <code>propertyAddress</code> varchar(300) DEFAULT NULL COMMENT &apos;&#x7269;&#x4E1A;&#x5730;&#x5740;&apos;,</p>
+<p>  <code>bjCompanyID</code> int(10) DEFAULT NULL COMMENT &apos;&#x4FDD;&#x6D01;&#x516C;&#x53F8;id&apos;,</p>
+<p>  <code>bjOperatorID</code> int(10) DEFAULT NULL COMMENT &apos;&#x4FDD;&#x6D01;&#x4EBA;&#x5458;&apos;,</p>
+<p>  <code>cleanStartDate</code> varchar(10) DEFAULT NULL COMMENT &apos;&#x8981;&#x6C42;&#x4FDD;&#x6D01;&#x5F00;&#x59CB;&#x65E5;&#x671F;&apos;,</p>
+<p>  <code>cleanEndDate</code> varchar(10) DEFAULT NULL COMMENT &apos;&#x8981;&#x6C42;&#x4FDD;&#x6D01;&#x7ED3;&#x675F;&#x65E5;&#x671F;&apos;,</p>
+<p>  <code>realCleanStartDate</code> int(10) DEFAULT NULL COMMENT &apos;&#x4FDD;&#x6D01;&#x4EBA;&#x5458;&#x5F00;&#x59CB;&#x4FDD;&#x6D01;&#x65F6;&#x95F4;&apos;,</p>
+<p>  <code>realCleanEndDate</code> int(10) DEFAULT NULL COMMENT &apos;&#x4FDD;&#x6D01;&#x4EBA;&#x5458;&#x7ED3;&#x675F;&#x4FDD;&#x6D01;&#x65F6;&#x95F4;&apos;,</p>
+<p>  <code>cleanImgs</code> text COMMENT &apos;&#x4FDD;&#x6D01;&#x5B8C;&#x6210;&#x56FE;&#x7247;&#x5B57;&#x7B26;&#x4E32;&apos;,</p>
+<p>  <code>getKeysTime</code> int(10) DEFAULT NULL COMMENT &apos;&#x9886;&#x53D6;&#x94A5;&#x5319;&#x65F6;&#x95F4;&apos;,</p>
+<p>  <code>backKeysTime</code> int(10) DEFAULT NULL COMMENT &apos;&#x9886;&#x53D6;&#x94A5;&#x5319;&#x65F6;&#x95F4;&apos;,</p>
+<p>  <code>checkDate</code> int(10) DEFAULT NULL COMMENT &apos;&#x9A8C;&#x6536;&#x65F6;&#x95F4;&apos;,</p>
+<p>  <code>checkManID</code> varchar(32) DEFAULT NULL COMMENT &apos;&#x9A8C;&#x6536;&#x4EBA;&apos;,</p>
+<p>  <code>checkResultType</code> tinyint(1) DEFAULT NULL COMMENT &apos;&#x9A8C;&#x6536;&#x7ED3;&#x679C;:1,&#x901A;&#x8FC7;;2,&#x4E0D;&#x901A;&#x8FC7;&apos;,</p>
+<p>  <code>checkResultRemark</code> varchar(255) DEFAULT NULL COMMENT &apos;&#x9A8C;&#x6536;&#x5907;&#x6CE8;&apos;,</p>
+<p>  <code>checkImgs</code> text COMMENT &apos;&#x9A8C;&#x6536;&#x56FE;&#x7247;&#x5B57;&#x7B26;&#x4E32;&apos;,</p>
+<p>  <code>orderStatus</code> int(1) NOT NULL DEFAULT &apos;1&apos;,</p>
+<p>  <code>roomName</code> varchar(8) DEFAULT NULL COMMENT &apos;&#x9000;&#x79DF;&#x5BA2;&#x623F;&#x540D;&#x5B57;&apos;,</p>
+<p>  <code>deleted_at</code> datetime DEFAULT NULL COMMENT &apos;&#x6570;&#x636E;&#x8F6F;&#x5220;&#x9664;&#x65F6;&#x95F4;&apos;,</p>
+<p>  <code>createUserID</code> varchar(32) DEFAULT NULL,</p>
+<p>  <code>createUserName</code> varchar(100) DEFAULT NULL,</p>
+<p>  <code>createDate</code> timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,</p>
+<p>  <code>updateUserID</code> varchar(32) DEFAULT NULL,</p>
+<p>  <code>updateUserName</code> varchar(100) DEFAULT NULL,</p>
+<p>  <code>updateDate</code> timestamp NOT NULL DEFAULT &apos;0000-00-00 00:00:00&apos;,</p>
+<p>  <code>remark</code> varchar(255) DEFAULT NULL COMMENT &apos;&#x8BA2;&#x5355;&#x5907;&#x6CE8;&apos;,</p>
+<p>  <code>lat</code> varchar(20) DEFAULT NULL COMMENT &apos;&#x5C0F;&#x533A;&#x7ECF;&#x5EA6;&apos;,</p>
+<p>  <code>lng</code> varchar(20) DEFAULT NULL COMMENT &apos;&#x5C0F;&#x533A;&#x7EAC;&#x5EA6;&apos;,</p>
+<p>  <code>file</code> text COMMENT &apos;&#x5BFC;&#x5165;&#x6587;&#x4EF6;&#x540D;&#x5B57;&apos;,</p>
+<p>  <code>rentType</code> int(1) DEFAULT NULL COMMENT &apos;&#x7269;&#x4E1A;&#x51FA;&#x79DF;&#x7C7B;&#x578B;&apos;,</p>
+<p>  <code>keysNumber</code> int(3) DEFAULT NULL COMMENT &apos;&#x53D1;&#x653E;&#x94A5;&#x5319;&#x6570;&#x91CF;&apos;,</p>
+<p>  <code>cancelReason</code> varchar(255) DEFAULT NULL COMMENT &apos;&#x53D6;&#x6D88;&#x539F;&#x56E0;&apos;,</p>
+<p>  <code>checkManName</code> varchar(64) DEFAULT NULL COMMENT &apos;&#x9A8C;&#x6536;&#x4EBA;&#x5458;&apos;,</p>
+<p>  PRIMARY KEY (<code>id</code>)</p>
+<p>) ENGINE=InnoDB AUTO_INCREMENT=260 DEFAULT CHARSET=utf8</p>
+<h3 id="bjcompany">bj_company</h3>
+<p>CREATE TABLE <code>bj_company</code> (</p>
+<p>  <code>id</code> int(10) NOT NULL AUTO_INCREMENT,</p>
+<p>  <code>name</code> varchar(100) NOT NULL DEFAULT &apos;&apos; COMMENT &apos;&#x516C;&#x53F8;&#x540D;&#x5B57;&apos;,</p>
+<p>  <code>chargeMan</code> varchar(64) NOT NULL DEFAULT &apos;&apos; COMMENT &apos;&#x8D1F;&#x8D23;&#x4EBA;&apos;,</p>
+<p>  <code>mobile</code> char(11) DEFAULT NULL COMMENT &apos;&#x624B;&#x673A;&#x53F7;&#x7801;&apos;,</p>
+<p>  <code>email</code> varchar(50) NOT NULL DEFAULT &apos;&apos; COMMENT &apos;&#x90AE;&#x4EF6;&apos;,</p>
+<p>  <code>loginName</code> varchar(64) NOT NULL DEFAULT &apos;&apos; COMMENT &apos;yms&#x7CFB;&#x7EDF;&#x767B;&#x5F55;&#x540D;&apos;,</p>
+<p>  <code>loginPassword</code> varchar(100) NOT NULL DEFAULT &apos;&apos; COMMENT &apos;yms&#x7CFB;&#x7EDF;&#x767B;&#x5F55;&#x5BC6;&#x7801;&apos;,</p>
+<p>  <code>ymsUserId</code> varchar(32) NOT NULL DEFAULT &apos;&apos; COMMENT &apos;yms&#x7CFB;&#x7EDF;&#x7528;&#x6237;ID&apos;,</p>
+<p>  <code>deleted_at</code> datetime DEFAULT NULL COMMENT &apos;&#x6570;&#x636E;&#x8F6F;&#x5220;&#x9664;&#x65F6;&#x95F4;&apos;,</p>
+<p>  <code>createUserID</code> varchar(32) DEFAULT NULL,</p>
+<p>  <code>createUserName</code> varchar(100) DEFAULT NULL,</p>
+<p>  <code>createDate</code> timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,</p>
+<p>  <code>updateUserID</code> varchar(32) DEFAULT NULL,</p>
+<p>  <code>updateUserName</code> varchar(100) DEFAULT NULL,</p>
+<p>  <code>updateDate</code> timestamp NOT NULL DEFAULT &apos;0000-00-00 00:00:00&apos;,</p>
+<p>  PRIMARY KEY (<code>id</code>)</p>
+<p>) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8</p>
+<h3 id="bjstaff">bj_staff</h3>
+<p>CREATE TABLE <code>bj_staff</code> (</p>
+<p>  <code>id</code> int(10) NOT NULL AUTO_INCREMENT,</p>
+<p>  <code>name</code> varchar(64) NOT NULL COMMENT &apos;&#x59D3;&#x540D;&apos;,</p>
+<p>  <code>sex</code> tinyint(1) NOT NULL COMMENT &apos;&#x6027;&#x522B;&apos;,</p>
+<p>  <code>mobile</code> char(11) DEFAULT NULL COMMENT &apos;&#x624B;&#x673A;&#x53F7;&apos;,</p>
+<p>  <code>img</code> text COMMENT &apos;&#x56FE;&#x7247;&apos;,</p>
+<p>  <code>companyID</code> int(10) NOT NULL COMMENT &apos;&#x516C;&#x53F8;ID&apos;,</p>
+<p>  <code>deleted_at</code> datetime DEFAULT NULL COMMENT &apos;&#x6570;&#x636E;&#x8F6F;&#x5220;&#x9664;&#x65F6;&#x95F4;&apos;,</p>
+<p>  <code>createUserID</code> varchar(32) DEFAULT NULL,</p>
+<p>  <code>createUserName</code> varchar(100) DEFAULT NULL,</p>
+<p>  <code>createDate</code> timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,</p>
+<p>  <code>updateUserID</code> varchar(32) DEFAULT NULL,</p>
+<p>  <code>updateUserName</code> varchar(100) DEFAULT NULL,</p>
+<p>  <code>updateDate</code> timestamp NOT NULL DEFAULT &apos;0000-00-00 00:00:00&apos;,</p>
+<p>  PRIMARY KEY (<code>id</code>)</p>
+<p>) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8</p>
+<h3 id="bjorderscore">bj_order_score</h3>
+<p>CREATE TABLE <code>bj_order_score</code> (</p>
+<p>  <code>id</code> int(10) NOT NULL AUTO_INCREMENT,</p>
+<p>  <code>bj_order_id</code> int(10) DEFAULT NULL COMMENT &apos;&#x4FDD;&#x6D01;&#x5355;id&apos;,</p>
+<p>  <code>score</code> int(1) NOT NULL COMMENT &apos;&#x79DF;&#x5BA2;&#x8BC4;&#x5206;&apos;,</p>
+<p>  <code>imgs</code> text COMMENT &apos;&#x4E0A;&#x4F20;&#x56FE;&#x7247;&apos;,</p>
+<p>  <code>remark</code> varchar(255) DEFAULT NULL COMMENT &apos;&#x5907;&#x6CE8;&apos;,</p>
+<p>  <code>roomName</code> varchar(8) DEFAULT NULL COMMENT &apos;&#x5BA2;&#x623F;&#x540D;&#x5B57;&apos;,</p>
+<p>  <code>tenantMobile</code> char(11) DEFAULT NULL COMMENT &apos;&#x79DF;&#x5BA2;&#x624B;&#x673A;&#x53F7;&apos;,</p>
+<p>  <code>tenantName</code> varchar(64) DEFAULT NULL COMMENT &apos;&#x79DF;&#x5BA2;&#x59D3;&#x540D;&apos;,</p>
+<p>  <code>tenantId</code> varchar(64) DEFAULT NULL COMMENT &apos;&#x79DF;&#x5BA2;id&apos;,</p>
+<p>  <code>deleted_at</code> datetime DEFAULT NULL COMMENT &apos;&#x6570;&#x636E;&#x8F6F;&#x5220;&#x9664;&#x65F6;&#x95F4;&apos;,</p>
+<p>  <code>createUserID</code> varchar(32) DEFAULT NULL,</p>
+<p>  <code>createUserName</code> varchar(100) DEFAULT NULL,</p>
+<p>  <code>createDate</code> timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,</p>
+<p>  PRIMARY KEY (<code>id</code>)</p>
+<p>) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="systemStructure.html" class="navigation navigation-prev " aria-label="Previous page: 系统架构">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="fileStructure.html" class="navigation navigation-next " aria-label="Next page: 文件结构">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"数据库结构","level":"1.2.2","depth":2,"next":{"title":"文件结构","level":"1.2.3","depth":2,"path":"structure/fileStructure.md","ref":"structure/fileStructure.md","articles":[]},"previous":{"title":"系统架构","level":"1.2.1","depth":2,"path":"structure/systemStructure.md","ref":"structure/systemStructure.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"structure/dbStructure.md","mtime":"2017-02-21T08:16:28.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-21T09:53:23.925Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
